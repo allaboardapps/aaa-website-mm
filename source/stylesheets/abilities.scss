@@ -1,0 +1,238 @@
+.abilities {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.abilities img.quasar1 {
+  height: 60px;
+  position: absolute;
+  top: 90px;
+  left: 60%;
+  width: 60px;
+  z-index: 4;
+}
+
+.abilities img.what-we-do-illustration {
+  width: 80%;
+}
+
+.abilities .planet {
+  background: url("../images/abilities-planet.svg") no-repeat center;
+}
+
+.abilities img.comet {
+  height: 80px;
+  left: 5%;
+  position: absolute;
+  top: 500px;
+  width: 80px;
+  z-index: 4;
+}
+
+.abilities img.quasar3 {
+  height: 30px;
+  position: absolute;
+  top: 50px;
+  width: 30px;
+  z-index: 6;
+}
+
+.abilities .row.skills {
+  height: 200px;
+}
+
+.abilities .skills img {
+  top: 0px;
+  left: 25%;
+  position: absolute;
+  z-index: 4;
+  width: 50%;
+}
+
+.abilities .skills p {
+  font-family: "industry", "helvetica", "sans-serif";
+  position: absolute;
+  z-index: 5;
+}
+
+.abilities img.quasar1 {
+  height: 60px;
+  top: 10%;
+  left: 60%;
+  width: 60px;
+}
+
+.abilities img.quasar3 {
+  left: 80%;
+}
+
+.abilities img.comet {
+/*  left: 50%;
+  top: 0%;*/
+}
+
+.abilities .database img {
+  left: 10%;
+  top: 10%;
+  width: 70%;
+}
+
+.abilities .database p {
+  left: 12%;
+  top: 25%;
+  font-size: 0.9em;
+}
+
+.abilities .search-engine img {
+  width: 70%;
+}
+
+.abilities .search-engine p {
+  top: 15%;
+  right: 15%;
+  font-size: 0.9em;
+}
+
+.abilities .ecommerce img {
+  top: 0;
+  left: 20%;
+  width: 60%;
+}
+
+.abilities .ecommerce p {
+  top: 10%;
+  left: 25%;
+  font-size: 0.9em
+}
+
+.abilities .web-and-mobile img {
+  width: 70%;
+  right: 0;
+}
+
+.abilities .web-and-mobile p {
+  top: 10%;
+  right: 15%;
+  font-size: 0.8em;
+}
+
+.abilities .cms img {
+  top: 20%;
+  left: 0;
+  width: 50%;
+}
+
+.abilities .cms p {
+  top: 28%;
+  left: 10%;
+  font-size: 0.8em;
+}
+
+.abilities .data-viz img {
+  top: 0;
+  left: 30%;
+  width: 240px;
+}
+
+.abilities .data-viz p {
+  bottom: 0;
+  left: 40%;
+  font-size: 0.8em;
+}
+
+@media(max-width: 450px) {
+  .abilities {
+    text-align: left;
+  }
+
+  .abilities img.quasar1 {
+    height: 60px;
+    top: 10%;
+    left: 60%;
+    width: 60px;
+  }
+
+  .abilities img.quasar3 {
+    left: 80%;
+  }
+
+  .abilities img.comet {
+    left: 50%;
+    top: 0%;
+  }
+
+  .abilities .database img {
+    top: 30px;
+    left: 2px;
+    width: 100%;
+  }
+
+  .abilities .database p {
+    top: 50px;
+    left: 6px;
+    font-size: 0.8em;
+  }
+
+ .abilities .search-engine img {
+    top: 30%;
+    right: 0;
+    width: 100%;
+  }
+
+  .abilities .search-engine p {
+    top: 40%;
+    right: -5%;
+    font-size: 0.7em
+  }
+
+  .abilities .ecommerce img {
+    top: 25%;
+    left: -5%;
+    width: 100%;
+  }
+
+  .abilities .ecommerce p {
+    top: 30%;
+    left: 0px;
+    font-size: 0.8em;
+  }
+
+  .abilities .web-and-mobile img {
+    left: 0;
+    width: 110%;
+  }
+
+  .abilities .web-and-mobile p {
+    top: 8%;
+    right: 5%;
+    font-size: 0.7em;
+  }
+
+  .abilities .cms img {
+    top: -10px;
+    left: 20px;
+    width: 100%;
+  }
+
+  .abilities .cms p {
+    top: 5px;
+    left: 57px;
+    font-size: 0.9em;
+  }
+
+  .abilities .data-viz img {
+    top: -12px;
+    left: 0;
+    width: 110%;
+  }
+
+  .abilities .data-viz p {
+    top: 112px;
+    left: 30px;
+    font-size: 0.8em;
+  }
+}
+
+@media(min-width: 450px) {
+
+}

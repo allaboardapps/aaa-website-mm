@@ -1,0 +1,31 @@
+@media(max-width: 800px) {
+  .deco {
+    display: none;
+  }
+}
+
+.deco {
+  background: url("../images/star-field.svg");
+  height: 200px;
+}
+
+.deco img.sun {
+  height: 80px
+  margin-top: 60px;
+  margin-left: 60px;
+  width: 80px;
+}
+
+.deco img.quasar {
+  height: 30px
+  margin-top: 10px;
+  margin-left: 90px;
+  width: 30px;
+}
+
+.deco img.comet {
+  height: 80px;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 80px;
+}
