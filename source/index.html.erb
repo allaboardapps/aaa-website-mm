@@ -7,80 +7,83 @@ title: All Aboard Apps | Application Design, Build, Launch, Maintain
     <div class="menu col-12">
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="#abilities">What We Do</a></li>
+          <li><%= link_to "Home", "/" %></li>
+          <li><%= link_to "What We Do", "#abilities" %></li>
           <!-- <li><a href="#">Projects</a></li> -->
           <!-- <li><a href="#">Process</a></li> -->
-          <li><a href="#tools">Tools</a></li>
+          <li><%= link_to "Tools", "#tools" %></li>
           <!-- <li><a href="#">Team</a></li> -->
-          <li><a href="#contact">Contact</a></li>
+          <li><%= link_to "Contact", "#contact" %></li>
         </ul>
       </nav>
     </div>
   </div>
   <div class="headline row">
     <div class="col-4 text-center">
-      <img src="assets/images/earth.svg" class="earth" />
+      <%= image_tag "earth.svg", class: "earth" %>
     </div>
     <div class="col-4 text-center">
       <div class="logo-and-name">
-        <img src="assets/images/all-aboard-apps-logo.svg" class="logo" />
+        <%= image_tag "all-aboard-apps-logo.svg", class: "logo" %>
         <h1>All Aboard Apps</h1>
       </div>
     </div>
     <div class="col-4 text-center">
-      <img src="assets/images/mars.svg" class="mars" />
-      <img src="assets/images/quasar.svg" class="quasar" />
+      <%= image_tag "mars.svg", class: "mars" %>
+      <%= image_tag "quasar.svg", class: "quasar" %>
     </div>
   </div><!-- /.headline -->
   <div class="deco row">
     <div class="col-6">
-      <img src="assets/images/sun.svg" class="sun" />
-      <img src="assets/images/quasar.svg" class="quasar" />
+      <%= image_tag "sun.svg", class: "sun" %>
+      <%= image_tag "quasar.svg", class: "quasar" %>
     </div>
     <div class="col-6">
-      <img src="assets/images/comet.svg" class="comet" />
+      <%= image_tag "comet.svg", class: "comet" %>
     </div>
   </div><!-- /.deco -->
   <div class="abilities row">
     <div class="col-12">
       <div class="row">
         <a name="abilities"></a>
-        <h2><span class="lead">What</span><br><span class="remaining">We Do</span></h2>
+        <h2>
+          <span class="lead">What</span><br>
+          <span class="remaining">We Do</span>
+        </h2>
       </div>
       <div class="row">
-        <img src="assets/images/quasar.svg" class="quasar1" />
-        <img src="assets/images/comet.svg" class="comet" />
-        <img src="assets/images/quasar.svg" class="quasar3" />
+        <%= image_tag "quasar.svg", class: "quasar1" %>
+        <%= image_tag "comet.svg", class: "comet" %>
+        <%= image_tag "quasar.svg", class: "quasar2" %>
       </div>
       <div class="col-12 planet">
         <div class="row skills">
           <div class="col-6 database">
-            <img src="assets/images/abilities-database.svg" />
+            <%= image_tag "abilities-database.svg", class: "abilities-database" %>
             <p>Database Design/Build</p>
           </div>
           <div class="col-6 search-engine">
-            <img src="assets/images/abilities-search-engine.svg" />
+            <%= image_tag "abilities-search-engine.svg", class: "abilities-search-engine" %>
             <p>Custom Search Engines</p>
           </div>
         </div>
         <div class="row skills">
           <div class="col-6 ecommerce">
-            <img src="assets/images/abilities-ecommerce.svg" />
+            <%= image_tag "abilities-ecommerce.svg", class: "abilities-ecommerce" %>
             <p>Ecommerce</p>
           </div>
           <div class="col-6 web-and-mobile">
-            <img src="assets/images/abilities-web-and-mobile.svg" />
+            <%= image_tag "abilities-web-and-mobile.svg", class: "abilities-web-and-mobile" %>
             <p>Web and Mobile Apps</p>
           </div>
         </div>
         <div class="row skills">
           <div class="col-6 cms">
-            <img src="assets/images/abilities-cms.svg" />
+            <%= image_tag "abilities-cms.svg", class: "abilities-cms" %>
             <p>Websites and CMS</p>
           </div>
           <div class="col-6 data-viz">
-            <img src="assets/images/abilities-data-viz.svg" />
+          <%= image_tag "abilities-data-viz.svg", class: "abilities-data-viz" %>
             <p>Reporting and<br>Data Visualization</p>
           </div>
         </div>
@@ -99,32 +102,36 @@ title: All Aboard Apps | Application Design, Build, Launch, Maintain
     <div class="col-12">
       <div class="row tools-header">
         <a name="tools"></a>
-        <img src="assets/images/tools-we-use-illustration.svg" class="tools-we-use-illustration" />
+        <%= image_tag "tools-we-use-illustration.svg", class: "tools-we-use-illustration" %>
         <h2><span class="lead">Tools</span><br><span class="remaining">We Use</span></h2>
       </div>
       <div class="row">
         <div class="col-4">
-          <img src="assets/images/tool-circle.svg" class="tool-circle" />
-          <p>JavaScript, Node, & React</p>
+          <%= image_tag "tool-circle.svg", class: "tool-circle" %>
+          <p>JavaScript, Node, React</p>
         </div>
         <div class="col-4">
-          <img src="assets/images/tool-circle.svg" class="tool-circle" />
+          <%= image_tag "tool-circle.svg", class: "tool-circle" %>
           <p>Ruby on Rails</p>
         </div>
         <div class="col-4">
-          <img src="assets/images/tool-circle.svg" class="tool-circle" />
-          <p>Custom CMS, & Wordpress</p>
+          <%= image_tag "tool-circle.svg", class: "tool-circle" %>
+          <p>Custom CMS, Wordpress</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-6">
-          <img src="assets/images/tool-circle.svg" class="tool-circle" />
+        <div class="col-4">
+          <%= image_tag "tool-circle.svg", class: "tool-circle" %>
           <p>MySQL, Postgres, SQL Server, MongoDB
           </p>
         </div>
-        <div class="col-6">
-          <img src="assets/images/tool-circle.svg" class="tool-circle" />
-          <p>Heroku, Amazon (AWS), & Custom Hosting</p>
+        <div class="col-4">
+          <%= image_tag "tool-circle.svg", class: "tool-circle" %>
+          <p>ElasticSearch, Sidekiq, Twilio, WebSockets</p>
+        </div>
+        <div class="col-4">
+          <%= image_tag "tool-circle.svg", class: "tool-circle" %>
+          <p>Heroku, Amazon (AWS), Custom Hosting</p>
         </div>
       </div>
     </div>
@@ -137,7 +144,10 @@ title: All Aboard Apps | Application Design, Build, Launch, Maintain
     <div class="col-12">
       <div class="row">
         <a name="contact"></a>
-        <h2><span class="lead">Send Us</span><br><span class="remaining">A Message</span></h2>
+        <h2>
+          <span class="lead">Send Us</span><br>
+          <span class="remaining">A Message</span>
+        </h2>
       </div>
       <div class="contact-form-wrapper">
         <form name="aaa-contact-form" action="thank-you" netlify-honeypot="trap" netlify>

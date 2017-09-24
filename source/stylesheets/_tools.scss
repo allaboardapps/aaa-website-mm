@@ -1,0 +1,45 @@
+.tools {
+  background-color: $orange;
+  text-align: center;
+
+  .tools-header {
+    height: 200px;
+  }
+
+  .tools-we-use-illustration {
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    left: 10%;
+    z-index: 3;
+  }
+
+  h2 {
+    position: absolute;
+    left: 2%;
+    z-index: 3;
+  }
+
+  .tool-circle {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: $font-main;
+  }
+}
+
+@media(max-width: 768px) {
+  .tools {
+    h2 {
+      position: absolute;
+      z-index: 3;
+    }
+  }
+}
+
+@media(min-width: 800px) {
+
+}

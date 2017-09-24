@@ -1,0 +1,18 @@
+.footer {
+  background-color: $black;
+  text-align: center;
+
+  .contact-info {
+    padding-bottom: 50px;
+  }
+
+  .contact-info a {
+    color: $white;
+  }
+
+  .copyright {
+    font-family: $font-readable;
+    font-size: .75em;
+    padding-bottom: 20px;
+  }
+}
