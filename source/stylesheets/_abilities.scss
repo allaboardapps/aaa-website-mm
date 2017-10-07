@@ -114,16 +114,18 @@
     font-size: 0.8em;
   }
 
-  .cms img {
-    top: 20%;
-    left: 0;
-    width: 50%;
-  }
+  .cms {
+    img {
+      top: 20%;
+      left: 30%;
+      width: 50%;
+    }
 
-  .cms p {
-    top: 28%;
-    left: 10%;
-    font-size: 0.8em;
+    p {
+      top: 28%;
+      left: 40%;
+      font-size: 0.8em;
+    }
   }
 
   .data-viz img {
@@ -159,168 +161,172 @@
       top: 0%;
     }
 
-    .database img {
-      top: 30px;
-      left: 2px;
-      width: 100%;
+    .database {
+      img {
+        top: 30px;
+        left: 2px;
+        width: 100%;
+      }
+
+      p {
+        top: 50px;
+        left: 6px;
+        font-size: 0.8em;
+      }
     }
 
-    .database p {
-      top: 50px;
-      left: 6px;
-      font-size: 0.8em;
+    .search-engine {
+      img {
+        top: 30%;
+        right: 0;
+        width: 100%;
+      }
+
+      p {
+        top: 40%;
+        right: -5%;
+        font-size: 0.7em
+      }
     }
 
-   .search-engine img {
-      top: 30%;
-      right: 0;
-      width: 100%;
+    .ecommerce {
+      img {
+        top: 25%;
+        left: -5%;
+        width: 100%;
+      }
+
+      p {
+        top: 30%;
+        left: 0px;
+        font-size: 0.8em;
+      }
     }
 
-    .search-engine p {
-      top: 40%;
-      right: -5%;
-      font-size: 0.7em
+    .web-and-mobile {
+      img {
+        left: 0;
+        width: 110%;
+      }
+
+      p {
+        top: 8%;
+        right: 5%;
+        font-size: 0.7em;
+      }
     }
 
-    .ecommerce img {
-      top: 25%;
-      left: -5%;
-      width: 100%;
+    .cms {
+      img {
+        top: -10px;
+        left: 20px;
+        width: 100%;
+      }
+
+      p {
+        top: 5px;
+        left: 57px;
+        font-size: 0.9em;
+      }
     }
 
-    .ecommerce p {
-      top: 30%;
-      left: 0px;
-      font-size: 0.8em;
-    }
+    .data-viz {
+      img {
+        top: -12px;
+        left: 0;
+        width: 110%;
+      }
 
-    .web-and-mobile img {
-      left: 0;
-      width: 110%;
-    }
-
-    .web-and-mobile p {
-      top: 8%;
-      right: 5%;
-      font-size: 0.7em;
-    }
-
-    .cms img {
-      top: -10px;
-      left: 20px;
-      width: 100%;
-    }
-
-    .cms p {
-      top: 5px;
-      left: 57px;
-      font-size: 0.9em;
-    }
-
-    .data-viz img {
-      top: -12px;
-      left: 0;
-      width: 110%;
-    }
-
-    .data-viz p {
-      top: 112px;
-      left: 30px;
-      font-size: 0.8em;
+      p {
+        top: 112px;
+        left: 30px;
+        font-size: 0.8em;
+      }
     }
   }
 }
 
 @media(min-width: 900px) {
   .abilities {
-    text-align: left;
+    margin-bottom: 100px;
+
+    .wrapper {
+      margin: 0 auto;
+      max-width: 960px;
+    }
 
     .quasar1 {
-      height: 60px;
-      top: 10%;
-      left: 60%;
-      width: 60px;
+
     }
 
     .quasar3 {
-      left: 80%;
+
     }
 
     .comet {
-      left: 50%;
-      top: 0%;
+      width: 130px
     }
 
-    .database img {
-      top: 20%;
-      left: 60%;
-      width: 30%;
+    .database {
+      img {
+
+      }
+
+      p {
+        font-size: 1.2em;
+      }
     }
 
-    .database p {
-      top: 30%;
-      left: 61%;
-      font-size: 0.8em;
+    .search-engine {
+     img {
+
+      }
+
+      p {
+        font-size: 1.4em;
+        right: 11%
+      }
     }
 
-   .search-engine img {
-      top: 30%;
-      right: 0;
-      width: 30%;
+    .ecommerce {
+      img {
+
+      }
+
+      p {
+        font-size: 1.4em;
+      }
     }
 
-    .search-engine p {
-      top: 40%;
-      right: -5%;
-      font-size: 0.7em
+    .web-and-mobile {
+      img {
+
+      }
+
+      p {
+        font-size: 1.3em;
+        right: 10%;
+      }
     }
 
-    .ecommerce img {
-      top: 25%;
-      left: 50%;
-      width: 30%;
+    .cms {
+      img {
+
+      }
+
+      p {
+        font-size: 1.2em;
+      }
     }
 
-    .ecommerce p {
-      top: 30%;
-      left: 53%;
-      font-size: 0.8em;
-    }
+    .data-viz {
+      img {
 
-    .web-and-mobile img {
-      left: 0;
-      width: 30%;
-    }
+      }
 
-    .web-and-mobile p {
-      top: 8%;
-      right: 5%;
-      font-size: 0.7em;
-    }
-
-    .cms img {
-      top: 0;
-      left: 60%;
-      width: 30%;
-    }
-
-    .cms p {
-      top: 5%;
-      left: 67%;
-      font-size: 0.9em;
-    }
-
-    .data-viz img {
-      top: -12px;
-      left: 0;
-      width: 30%;
-    }
-
-    .data-viz p {
-      top: 112px;
-      left: 30px;
-      font-size: 0.8em;
+      p {
+        font-size: 1.0em;
+      }
     }
   }
 }

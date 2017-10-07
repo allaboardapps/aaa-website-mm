@@ -31,7 +31,7 @@
 }
 
 @media(max-width: 800px) {
-  .contact .col-12 {
+  .contact {
     padding-left: 0;
 
     .contact-form-wrapper {
@@ -54,7 +54,15 @@
     }
 
     button {
-      margin: 55px 0 0 140px;
+      margin: 80px 0 0 150px;
+    }
+  }
+}
+
+@media(max-width: 480px) {
+  .contact {
+    button {
+      margin: 50px 0 0 140px;
       color: #665d5b;
       background-color: #dca146;
       border-color: #665d5b;
@@ -62,8 +70,4 @@
       width: 140px;
     }
   }
-}
-
-@media(min-width: 800px) {
-
 }
