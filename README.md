@@ -14,3 +14,5 @@
 * Run locally
 
 ## Quality Control
+
+* https://realfavicongenerator.net/favicon_checker
