@@ -4,15 +4,32 @@
 
   .contact-info {
     padding-bottom: 50px;
+
+    .details {
+      font-size: 1.3em;
+      text-align: right;
+    }
+
+    a {
+      color: $white;
+    }
+
+    .satellite {
+      max-width: 300px;
+    }
   }
 
-  .contact-info a {
-    color: $white;
+  .tagline {
+    background-color: $white;
+    color: $black;
+    padding-top: 40px;
   }
 
   .copyright {
+    background-color: $white;
+    color: $black;
     font-family: $font-readable;
     font-size: .75em;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 }

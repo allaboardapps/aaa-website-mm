@@ -8,11 +8,11 @@ title: All Aboard Apps | Application Design, Build, Launch, Maintain
       <nav>
         <ul>
           <li><%= link_to "Home", "/" %></li>
-          <li><%= link_to "What We Do", "#abilities" %></li>
+          <li><%= link_to "Skills", "#abilities" %></li>
           <!-- <li><a href="#">Projects</a></li> -->
           <!-- <li><a href="#">Process</a></li> -->
           <li><%= link_to "Tools", "#tools" %></li>
-          <!-- <li><a href="#">Team</a></li> -->
+          <li><%= link_to "Team", "#team" %></li>
           <li><%= link_to "Contact", "#contact" %></li>
         </ul>
       </nav>
@@ -108,7 +108,7 @@ title: All Aboard Apps | Application Design, Build, Launch, Maintain
       <div class="row">
         <div class="col-4">
           <%= image_tag "tool-circle.svg", class: "tool-circle" %>
-          <p>JavaScript, Node, React, Single Page Apps</p>
+          <p>JavaScript, Node, React, Single Page Apps, Progressive Web Apps</p>
         </div>
         <div class="col-4">
           <%= image_tag "tool-circle.svg", class: "tool-circle" %>
@@ -126,7 +126,7 @@ title: All Aboard Apps | Application Design, Build, Launch, Maintain
         </div>
         <div class="col-4">
           <%= image_tag "tool-circle.svg", class: "tool-circle" %>
-          <p>ElasticSearch, Sidekiq, Twilio, WebSockets, Stripe, Braintree</p>
+          <p>Elasticsearch, Sidekiq, Twilio, WebSockets, Stripe, Braintree</p>
         </div>
         <div class="col-4">
           <%= image_tag "tool-circle.svg", class: "tool-circle" %>
@@ -136,8 +136,7 @@ title: All Aboard Apps | Application Design, Build, Launch, Maintain
     </div>
   </div><!-- /.tools -->
   <div class="team row">
-    <div class="col">
-    </div>
+    <%= partial "partials/team" %>
   </div><!-- /.team -->
   <div class="contact row">
     <div class="col-12">
@@ -175,18 +174,25 @@ title: All Aboard Apps | Application Design, Build, Launch, Maintain
   <div class="footer row">
     <div class="col-12">
       <div class="row">
-        <h2><span class="lead">Contact Us</span><br><span class="remaining">Directly</span></h2>
+        <h2>
+          <span class="lead">Contact Us</span><br>
+          <span class="remaining">Directly</span>
+        </h2>
       </div>
       <div class="contact-info row">
-        <div class="col-12">
+        <div class="col-8 details">
           All Aboard Apps, LLC<br>
+          Randy Burgess, Owner<br>
           <a href="tel:773-551-6808">773-551-6808</a><br>
           <a href="mailto:randy@allaboardapps.com">randy@allaboardapps.com</a><br>
+        </div>
+        <div class="col-4">
+          <%= image_tag "contact-satellite.svg", class: "satellite" %>
         </div>
       </div><!-- /.contact-info -->
       <div class="tagline row">
         <div class="col-12">
-          <p>Based in Chicago. Work for Anywhere.</p>
+          <p>Based in Chicago. Working from Anywhere.</p>
         </div>
       </div><!-- /.tagline -->
       <div class="copyright row">

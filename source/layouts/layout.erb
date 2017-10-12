@@ -9,35 +9,21 @@
       gtag('js', new Date());
       gtag('config', 'UA-107700316-1');
     </script>
+    <title><%= current_page.data.title || "All Aboard Apps" %></title>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#0069b4"/>
-    <title><%= current_page.data.title || "All Aboard Apps" %></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <meta name="theme-color" content="#ffffff">
     <link rel="apple-touch-icon" sizes="180x180" href="<%= image_path('apple-touch-icon.png') %>">
     <link rel="icon" type="image/png" sizes="32x32" href="<%= image_path('favicon-32x32.png') %>">
     <link rel="icon" type="image/png" sizes="16x16" href="<%= image_path('favicon-16x16.png') %>">
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" color="#0069b4" href="<%= image_path('safari-pinned-tab.svg') %>">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <%= stylesheet_link_tag "site" %>
   </head>
   <body>
     <%= yield %>
     <%= javascript_include_tag "site" %>
-    <script>
-      // if ('serviceWorker' in navigator) {
-      //   window.addEventListener('load', function() {
-      //     navigator.serviceWorker.register('/sw.js').then(function(registration) {
-      //       // Registration was successful
-      //       console.log('ServiceWorker registration successful with scope: ', registration.scope);
-      //     }, function(err) {
-      //       // registration failed :(
-      //       console.log('ServiceWorker registration failed: ', err);
-      //     });
-      //   });
-      // }
-    </script>
   </body>
 </html>

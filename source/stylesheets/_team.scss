@@ -1,0 +1,122 @@
+.team {
+  background-image: url("../images/star-field.svg");
+  background-repeat: repeat;
+  padding-bottom: 0;
+  padding-top: 30px;
+  text-align: center;
+
+  .moon {
+    background-image: url("../images/team-moon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+  }
+
+  .profile {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border-color: $black;
+    border-width: 5px;
+    border-style: solid;
+    font-family: $font-main;
+    font-weight: normal;
+    padding: 10px;
+
+    h3 {
+      font-size: 1.5em;
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      font-family: $font-readable;
+      font-size: 1.1em;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-family: $font-readable;
+    }
+  }
+
+  .angeleah {
+
+    .astronaut {
+      margin-top: 50px;
+    }
+
+    .profile {
+      background-color: #f79f3e;
+    }
+  }
+
+  .randy {
+
+    .astronaut {
+      margin-top: -30px;
+    }
+
+    .profile {
+      background-color: #0069b4;
+    }
+  }
+
+  .megan {
+
+    .astronaut {
+      margin-top: 250px;
+    }
+
+    .profile {
+      background-color: #00A553;
+    }
+  }
+}
+
+@media(max-width: 576px) {
+  .team {
+    text-align: left;
+    height: 1300px;
+
+    .moon {
+      background-image: none;
+    }
+
+    .angeleah, .megan {
+      .astronaut {
+        margin-top: 0;
+        float: left;
+        width: 30%;
+      }
+
+      .profile {
+        float: right;
+        width: 60%;
+      }
+    }
+
+    .randy {
+      .astronaut {
+        margin-top: 0;
+        float: right;
+        width: 30%;
+      }
+
+      .profile {
+        float: left;
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media(min-width: 900px) {
+  .team {
+    text-align: left;
+
+    .moon {
+      margin: 0 auto;
+      width: 900px;
+    }
+  }
+}

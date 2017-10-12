@@ -1,6 +1,7 @@
 .abilities {
   text-align: center;
   padding-bottom: 20px;
+  background-image: url("../images/star-field.svg");
 
   .quasar1 {
     height: 60px;
@@ -16,7 +17,9 @@
   }
 
   .planet {
-    background: url("../images/abilities-planet.svg") no-repeat center;
+    background-image: url("../images/abilities-planet.svg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .comet {

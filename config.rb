@@ -49,4 +49,4 @@ activate :asset_hash
 activate :livereload
 activate :gzip
 
-set(:port, 8080)
+set(:port, 3000)
