@@ -1,29 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107700316-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-107700316-1');
-    </script>
-    <title><%= current_page.data.title || "All Aboard Apps" %></title>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="apple-touch-icon" sizes="180x180" href="<%= image_path('apple-touch-icon.png') %>">
-    <link rel="icon" type="image/png" sizes="32x32" href="<%= image_path('favicon-32x32.png') %>">
-    <link rel="icon" type="image/png" sizes="16x16" href="<%= image_path('favicon-16x16.png') %>">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" color="#0069b4" href="<%= image_path('safari-pinned-tab.svg') %>">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <%= stylesheet_link_tag "site" %>
+    <%= partial "partials/meta_tags" %>
   </head>
   <body>
     <%= yield %>
     <%= javascript_include_tag "site" %>
+    <%= partial "partials/_structured_data" %>
   </body>
 </html>

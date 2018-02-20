@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+  [{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "<%= config[:site_name] %>",
+    "url": "<%= config[:site_url] %>",
+    "logo": "<%= config[:image_url] %>",
+    "sameAs": [
+      "<%= config[:facebook_url] %>",
+      "<%= config[:linkedin_url] %>",
+      "<%= config[:twitter_url] %>"
+    ],
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "<%= config[:site_phone_number] %>",
+      "contactType": "customer service",
+      "availableLanguage": "English",
+      "areaServed": "US"
+    }]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "<%= config[:site_name] %>",
+    "url": "<%= config[:site_url] %>"
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Randy Burgess",
+    "url": "http://www.wrburgess.com",
+    "sameAs": [
+      "https://www.facebook.com/wrburgess",
+      "https://instagram.com/wrburgess",
+      "https://www.linkedin.com/in/wrburgess",
+      "https://twitter.com/wrburgess"
+    ]
+  }]
+</script>
