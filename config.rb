@@ -4,6 +4,8 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+import_file File.expand_path("_headers", root), "_headers"
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
