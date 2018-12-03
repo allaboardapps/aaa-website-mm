@@ -40,21 +40,10 @@
     }
   }
 
-  .angeleah {
+  .first {
 
     .astronaut {
       margin-top: 50px;
-    }
-
-    .profile {
-      background-color: #f79f3e;
-    }
-  }
-
-  .randy {
-
-    .astronaut {
-      margin-top: -30px;
     }
 
     .profile {
@@ -62,14 +51,25 @@
     }
   }
 
-  .megan {
+  .second {
+
+    .astronaut {
+      margin-top: -30px;
+    }
+
+    .profile {
+      background-color: #00A553;
+    }
+  }
+
+  .third {
 
     .astronaut {
       margin-top: 250px;
     }
 
     .profile {
-      background-color: #00A553;
+      background-color: #f79f3e;
     }
   }
 }
@@ -83,7 +83,7 @@
       background-image: none;
     }
 
-    .angeleah, .megan {
+    .first, .third {
       .astronaut {
         margin-top: 0;
         float: left;
@@ -96,7 +96,7 @@
       }
     }
 
-    .randy {
+    .second {
       .astronaut {
         margin-top: 0;
         float: right;
